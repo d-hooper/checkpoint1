@@ -19,7 +19,7 @@
 <body class="debug">
 
   <header>
-    <div class="container-fluid p-0">
+    <div class="container-fluid">
       <div class="row align-items-center">
         <div class="col-3 col-md-1">
           <div class="sticky-top">
@@ -36,35 +36,37 @@
     <!-- ANCHOR Hero Section / Form / Text Over Image  -->
     <section class="container-fluid office-bg mt-3">
       <div class="row justify-content-around py-5">
-        <div class="col-sm-5 col-md-4 d-block">
-          <div class="text-dark bg-light py-5 rounded-1">
-            <form class="row g-3 justify-content-center">
-              <div class="col-10">
-                <input type="text" class="form-control" id="name" placeholder="NAME">
-              </div>
-
-              <div class="col-10">
-                <input type="email" class="form-control" id="email" placeholder="EMAIL">
-              </div>
-              <div class="col-6">
-                <input type="text" class="form-control" id="phone" placeholder="PHONE">
-              </div>
-              <div class="col-4">
-                <input type="text" class="form-control" id="ext" placeholder="EXT.">
-              </div>
-              <div class="col-10">
-                <input type="text" class="form-control" id="message" placeholder="MESSAGE">
-              </div>
-              <div class="col-10">
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="check">
-                  <label class="form-check-label" for="check">
-                    By checking this box, I agree to be friends with you.
-                  </label>
+        <div class="col-sm-5 col-md-4">
+          <div class="row">
+            <form class="col-lg-6 d-flex flex-column text-dark bg-light py-3 rounded-1">
+              <div class="row  justify-content-center g-3">
+                <div class="col-10">
+                  <input type="text" class="form-control" id="name" placeholder="NAME">
                 </div>
-              </div>
-              <div class="col-10">
-                <button type="submit" class="btn btn-danger rounded-pill">Sign in</button>
+  
+                <div class="col-10">
+                  <input type="email" class="form-control" id="email" placeholder="EMAIL">
+                </div>
+                <div class="col-6">
+                  <input type="text" class="form-control" id="phone" placeholder="PHONE">
+                </div>
+                <div class="col-4">
+                  <input type="text" class="form-control" id="ext" placeholder="EXT.">
+                </div>
+                <div class="col-10">
+                  <input type="text" class="form-control" id="message" placeholder="MESSAGE">
+                </div>
+                <div class="col-10">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="check">
+                    <label class="form-check-label" for="check">
+                      By checking this box, I agree to be friends with you.
+                    </label>
+                  </div>
+                </div>
+                <div class="col-10">
+                  <button type="submit" class="btn btn-danger rounded-pill">Sign in</button>
+                </div>
               </div>
             </form>
           </div>
@@ -83,45 +85,99 @@
     <!-- ANCHOR About Section / Overflow Card -->
     <section class="container-fluid">
       <div class="row bg-danger py-4 justify-content-around">
-        <div class="col-sm-8 col-md-3 order-2 order-md-1 order-lg-2">
+        <div class="col-sm-8 col-md-3 col-lg-4 order-2 order-md-1 order-lg-2">
           <div class="text-light">
-            <h1>Here at Clone Site, we're friends</h1>
+            <h1>Here at Clone Site, we're friends.</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis quam commodi consectetur laborum rem. Vel
               sed tempore molestiae rerum numquam.</p>
           </div>
         </div>
-        <div class="col-md-6 order-1 order-md-2 order-lg-2">
-          <div class="shadow bg-light text-dark fs-4 rounded-2 d-md-flex-column align-items-center px-2">
-            <p><span class="mdi text-success fs-2 mdi-pail-outline"></span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, sunt!</p>
-            <p><span class="mdi text-success fs-2 mdi-calendar-month-outline"></span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, doloribus. Odit?</p>
-            <p><span class="mdi text-success fs-2 mdi-database-outline"></span>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <p><span class="mdi text-success fs-2 mdi-note-text-outline"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus?</p>
-            <p><span class="mdi text-success fs-2 mdi-cookie"></span>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="col-md-8 col-lg-5 order-1 order-md-2 order-lg-2">
+          <div class="shadow bg-light text-dark fs-5 rounded-2 d-md-flex-column align-items-center px-2">
+            <div>
+              <p><span class="mdi text-success fs-2 mdi-pail-outline"></span>Lorem ipsum, dolor sit amet consectetur
+                adipisicing elit. Ducimus, sunt!</p>
+              <p><span class="mdi text-success fs-2 mdi-calendar-month-outline"></span>Lorem ipsum dolor sit, amet
+                consectetur adipisicing elit. Deserunt, doloribus. Odit?</p>
+              <p><span class="mdi text-success fs-2 mdi-database-outline"></span>Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit.</p>
+              <p><span class="mdi text-success fs-2 mdi-note-text-outline"></span>Lorem ipsum dolor sit amet,
+                consectetur
+                adipisicing elit. Delectus?</p>
+              <p><span class="mdi text-success fs-2 mdi-cookie"></span>Lorem, ipsum dolor sit amet consectetur
+                adipisicing
+                elit.</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <!-- ANCHOR Services Section -->
     <section class="container-fluid">
-      <div class="row align-items-end">
-        <div class="col-md-4">
+      <div class="row align-items-end py-4">
+        <div class="col-md-3">
           <div>
-            <img src="https://images.unsplash.com/photo-1535957998253-26ae1ef29506?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8b2ZmaWNlfGVufDB8fDB8fHww" alt="" class="img-fluid">
+            <img src="https://images.unsplash.com/photo-1535957998253-26ae1ef29506?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8b2ZmaWNlfGVufDB8fDB8fHww"
+                 alt="" class="img-fluid">
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-8 col-lg-9">
           <div class="text-center">
             <span class="mdi fs-1 text-success mdi-check-decagram"></span>
           </div>
           <h2 class="fs-3">Execute core competencies to their fullest extent.</h2>
-          <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi explicabo voluptates mollitia odio dolorem suscipit hic officiis velit nobis fugit doloremque soluta tenetur non ullam consequuntur beatae itaque saepe excepturi dolorum, totam similique facere accusantium nam. Nostrum, doloremque? Harum hic deserunt consequatur sequi repellendus illo quisquam, vero dolor ea? Blanditiis.</p>
-        <div class="text-end">
-          <button class="btn btn-success rounded-pill">Check It Out</button>
-        </div>
+          <p class="fs-5">Eligendi explicabo voluptates
+            mollitia odio dolorem suscipit hic officiis velit nobis fugit doloremque soluta tenetur non ullam
+            consequuntur beatae itaque saepe excepturi dolorum, totam similique facere accusantium nam. Nostrum,
+            doloremque? Harum hic deserunt consequatur sequi repellendus illo quisquam, vero dolor ea? Blanditiis.</p>
+          <div class="text-end">
+            <button class="btn btn-success rounded-pill">Check It Out</button>
+          </div>
         </div>
       </div>
     </section>
+
     <!-- ANCHOR Reviews Section -->
+    <section class="container-fluid bg-secondary">
+      <div class="row justify-content-center align-items-center py-4">
+        <!-- ANCHOR card 1 -->
+        <div class="col-md-5 col-lg-3 mt-2 order-2 order-lg-1">
+          <div class="bg-white rounded-1 p-4">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptas eum, harum libero sequi
+              quibusdam.</p>
+            <span>Roger Steeds</span>
+
+          </div>
+        </div>
+        <!-- ANCHOR card 2 -->
+        <div class="col-md-8 col-lg-3 mt-2 order-1 order-lg-2">
+          <div class="bg-white rounded-1 p-4">
+            <div class="text-center fs-1 text-success">
+              <span class="mdi mdi-star-four-points-circle"></span>
+              <span class="mdi mdi-star-four-points-circle"></span>
+              <span class="mdi mdi-star-four-points-circle"></span>
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptas eum, harum libero sequi
+              quibusdam.</p>
+            <span>Quentin Sparks</span>
+
+          </div>
+        </div>
+        <!-- ANCHOR card 3 -->
+        <div class="col-md-5 col-lg-3 mt-2 order-3">
+          <div class="bg-white rounded-1 p-4">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptas eum, harum libero sequi
+              quibusdam.</p>
+            <span>Loretta Mills</span>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <footer>
