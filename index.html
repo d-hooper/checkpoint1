@@ -18,11 +18,11 @@
 
 <body class="debug my-0">
 
-  <header>
+  <header class="sticky-top bg-white p-2">
     <div class="container-fluid">
       <div class="row align-items-center">
         <div class="col-3 col-md-1">
-          <div class="sticky-top">
+          <div>
             <img class="img-fluid"
                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Logo_of_Australian_Labor_Party.svg/640px-Logo_of_Australian_Labor_Party.svg.png"
                  alt="a logo that says labor">
@@ -36,9 +36,9 @@
     <!-- ANCHOR Hero Section / Form / Text Over Image  -->
     <section class="container-fluid office-bg mt-3">
       <div class="row justify-content-around py-5">
-        <div class="col-sm-5 col-md-4">
+        <div class="col-sm-6 col-md-4">
           <div class="row">
-            <form class="col-lg-6 d-flex flex-column text-dark bg-light py-3 rounded-1">
+            <form class="col-sm-12 col-lg-6 d-flex flex-column text-dark bg-light py-3 rounded-1">
               <div class="row  justify-content-center g-3">
                 <div class="col-10">
                   <input type="text" class="form-control" id="name" placeholder="NAME">
@@ -139,19 +139,23 @@
 
     <!-- ANCHOR Reviews Section -->
     <section class="container-fluid bg-secondary">
-      <div class="row justify-content-center align-items-center py-4">
+      <div class="row justify-content-center align-items-center justify-content-lg-evenly py-4">
         <!-- ANCHOR card 1 -->
-        <div class="col-md-5 col-lg-3 mt-2 order-2 order-lg-1">
+        <div class="col-10 col-sm-8 col-md-5 col-lg-4 col-xl-3 my-2 order-4 order-lg-1">
           <div class="bg-white rounded-1 p-4">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptas eum, harum libero sequi
               quibusdam.</p>
             <span>Roger Steeds</span>
-
           </div>
         </div>
+
+        <div class="col-sm-2 col-md-3 order-1 d-none d-sm-flex d-md-flex  d-lg-none d-xl-none text-light">
+          <hr>
+        </div>
+
         <!-- ANCHOR card 2 -->
-        <div class="col-md-8 col-lg-3 mt-2 order-1 order-lg-2">
+        <div class="col-10 col-sm-8 col-md-5 col-lg-4 col-xl-3 my-2 order-2 order-lg-2 ">
           <div class="bg-white rounded-1 p-4">
             <div class="text-center fs-1 text-success">
               <span class="mdi mdi-star-four-points-circle"></span>
@@ -162,17 +166,21 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptas eum, harum libero sequi
               quibusdam.</p>
             <span>Quentin Sparks</span>
-
           </div>
         </div>
+
+        <div class="col-sm-2 col-md-3 order-2 d-none d-sm-flex d-md-flex d-lg-none d-xl-none text-light">
+          <hr>
+        </div>
+
+
         <!-- ANCHOR card 3 -->
-        <div class="col-md-5 col-lg-3 mt-2 order-3">
+        <div class="col-10 col-sm-8 col-md-5 col-lg-4 col-xl-3  my-2 order-5">
           <div class="bg-white rounded-1 p-4">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptas eum, harum libero sequi
               quibusdam.</p>
             <span>Loretta Mills</span>
-
           </div>
         </div>
       </div>
@@ -181,8 +189,8 @@
     <!-- ANCHOR Map Section -->
     <section class="container-fluid">
       <div class="row">
-        <div class="col-12 p-0">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Earth%27s_City_Lights_by_DMSP%2C_1994-1995_%28large%29.jpg/800px-Earth%27s_City_Lights_by_DMSP%2C_1994-1995_%28large%29.jpg?20140402184558" class="img-fluid" alt="a map of a the world">
+        <div class="col-12 p-0 text-center">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Earth%27s_City_Lights_by_DMSP%2C_1994-1995_%28large%29.jpg/800px-Earth%27s_City_Lights_by_DMSP%2C_1994-1995_%28large%29.jpg?20140402184558" class="img-fluid cover" alt="a map of a the world">
         </div>
       </div>
     </section>
@@ -192,14 +200,14 @@
     <!-- ANCHOR Contact Section -->
     <section class="container-fluid bg-secondary text-light py-4">
       <div class="row justify-content-center">
-        <div class="col-4 col-md-2">
+        <div class="col-4 col-md-2 col-lg-3">
           <div>
             <p><b>Visit Us</b></p>
             <p>1470 S. Tulip Ln.</p>
             <p>Boise, ID 83704</p>
           </div>
         </div>
-        <div class="col-4 col-md-2">
+        <div class="col-4 col-md-2 col-lg-3">
           <div>
             <p><b>Contact Us</b></p>
             <p>1-800-555-2300</p>
@@ -207,7 +215,7 @@
             <p>9 AM - 5 PM</p>
           </div>
         </div>
-        <div class="col-4 col-md-3">
+        <div class="col-4 col-md-2 col-lg-3">
           <p><b>Social Links</b></p>
           <div class="text-danger fs-3">  
             <span class="mdi mdi-twitter"></span>

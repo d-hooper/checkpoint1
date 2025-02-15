@@ -16,3 +16,8 @@ header img {
 .text-shadow {
   text-shadow: 1px 1px #000;
 }
+
+.cover {
+  min-width: 100dvw;
+  max-height: 50dvh;
+}
