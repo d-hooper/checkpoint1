@@ -21,3 +21,65 @@ header img {
   min-width: 100dvw;
   max-height: 50dvh;
 }
+
+.overflow-card {
+  position: absolute;
+  max-height: 45dvh;
+  top: 30px;
+  font-size: 1.1rem;
+  padding: 1rem 3rem;
+}
+
+.below-text {
+  margin-top: 13em;
+}
+
+/* ANCHOR Media Queries */
+
+@media screen AND (max-width: 1199.98px) {
+
+  .overflow-card {
+    max-height: 55dvh;
+    padding: 2em 4em;
+  }
+
+}
+
+
+@media screen AND (max-width: 991.98px) {
+
+  .overflow-card {
+    position: absolute;
+    top: 90px;
+    right: -280px;
+    padding: 0.5rem 1.5rem;
+    font-size: 1em;
+    max-height: 40dvh;
+  }
+
+  .below-text {
+    margin-top: 8em;
+  }
+
+  .fl-rev-co {
+    display: flex;
+    flex-direction: column-reverse;
+
+  }
+}
+
+@media screen AND (max-width: 767.98px) {
+
+  .overflow-card {
+    position: static;
+    top: 0px;
+    padding: 0.5rem 1.5rem;
+    font-size: 1em;
+    max-height: 65dvh;
+  }
+
+.below-text {
+  margin-top: 1em;
+}
+
+}
