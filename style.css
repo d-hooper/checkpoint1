@@ -1,6 +1,7 @@
 /* ANCHOR element styles */
 header img {
   max-height: 5dvh;
+  min-width: 15dvh;
 }
 
 /* ANCHOR Class styles */
@@ -134,8 +135,8 @@ header img {
 
   .overflow-card {
     position: absolute;
-    top: 90px;
-    right: -280px;
+    top: 50px;
+    right: -300px;
     padding: 0.5rem 1.5rem;
     font-size: 1em;
     max-height: 40dvh;
